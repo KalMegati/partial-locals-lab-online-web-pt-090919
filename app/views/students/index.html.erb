@@ -1,0 +1,8 @@
+<h1>Student Lookup</h1>
+
+<% @students.each do |dent| %>
+
+    <%= render partial: "student", locals: {student: dent} %>
+    <br> - <br>
+
+<% end %>
